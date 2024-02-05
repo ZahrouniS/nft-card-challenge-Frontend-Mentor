@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.card{
+    background-color: hsl(216, 50%, 16%);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 30px;  
+    border-radius: 24px;
+    margin: 15px;
+}
+
+.mainimg{
+
+    border-radius: 16px;
+    height: 500px;
+    margin: 15px 0;
+   
+
+}
+
+.img{
+
+    position: relative;
+}
+
+.img div{
+    margin-top: 15px;
+    position: absolute;
+    background-color: hsl(178, 100%, 50%);
+    top: 0;
+    width: 100%;
+    height: 500px;
+    opacity: 0;
+}
+
+.img div img{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.img div:hover{
+
+cursor: pointer;
+opacity: 0.6;
+border-radius: 16px;
+}
+
+.text{
+
+    display: flex;
+    flex-direction: column;
+}
+
+.text .nft-name{
+
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 15px;
+
+}
+
+.text .nft-name:hover{
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+
+}
+
+.text .nft-desc{
+
+    color: hsl(215, 51%, 70%);
+    font-size: 28px;
+    font-weight:400;
+}
+
+.nft-val-days{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nft-val-days .ethereum{
+
+    color: hsl(178, 100%, 50%);
+    display: flex;
+    align-items: center;
+}
+
+
+.nft-val-days .ethereum .nft-value{
+
+    margin-left: 8px;
+}
+
+.nft-val-days .days-clock{
+
+    color: hsl(215, 51%, 70%);
+    display: flex;
+    align-items: center;
+}
+
+
+.nft-val-days .days-clock .day-left{
+
+    margin-left: 8px;
+}
+
+.creator-avater{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 15px 0;
+    border-top: solid;
+    border-color: hsl(215, 51%, 70%);
+    border-width: 1px;
+}
+
+.creator-avater img{
+
+    width: 62px;
+    border-color:hsl(0, 0%, 100%) ;
+    border-style: outset;
+    border-radius: 50%;
+    margin-right: 16px;
+    margin-top: 8px;
+}
+
+.creator-avater .creator .creationof{
+
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+
+
+}
+
+.creator-avater .creator .namej{
+
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+
+}
+
+.creator-avater .creator .namej:hover{
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+
+}
+
+.attribution { font-size: 11px; text-align: center; color:hsl(215, 51%, 70%); ; }
+.attribution a { color: hsl(0, 0%, 100%); }
